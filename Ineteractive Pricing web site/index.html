@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="../styling/style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="slogan">
+      <h1>Simple,traffic-based pricing</h1>
+      <p>Sign-up for our 30 days trial. no credit card requiered</p>
+      <img class="circles" src="./images/pattern-circles.svg" alt="">
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="top">
+        <p class="views">100K PAGEVIEWS</p>
+        <h2> <h2 id="price">$16.00</h2><p id="month">/month</p><span id="year">/ Year</span></h2>
+  
+      </div>
+      <div class="bar">
+        <div class="circle">
+          <img src="./images/icon-slider.svg" alt="">
+        </div>
+      </div>
+      <div class="billing">
+        <p>Monthly Billing</p>
+        <label class="switcher">
+          <input type="checkbox">
+          <div id="circle"></div>
+        </label>
+        <p>Yearly Billing</p>
+        <p id="discount">%25 discount</p>
+      </div>
+      <div class="bottom">
+        <ul>
+          <div class="first-row">
+            <img src="./images/icon-check.svg" alt="">
+            <li>Unlimited websites</li>
+          </div>
+          <div class="second-row">
+            <img src="./images/icon-check.svg" alt="">
+            <li>100% data ownership</li>
+          </div>
+          <div class="third-row">
+            <img src="./images/icon-check.svg" alt="">
+            <li>Email reports</li>
+          </div>
+        </ul>
+        <button id="trial"><p>Start my trial</p></button>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="./javascript.js"></script>
+</body>
+</html>
