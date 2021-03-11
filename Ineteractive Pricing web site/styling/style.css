@@ -215,3 +215,53 @@ input:focus + #circle{
     display: none;
     font-size: 1.5rem;
 }
+
+@media screen and (max-width:1200px){
+    body{
+        overflow: hidden;
+    }
+    header{
+        margin-top: 10rem;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    main .container{
+        width: 35vw;
+        margin: 0;
+        transform: translateY(-6rem);
+
+    }
+    main .container .billing{
+        width: 100%;
+        margin: 4rem 0;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:850px){
+    body{
+        font-size: 0.9rem;
+    }
+    main .container{
+        width: 45vw;
+    }
+    main .container .billing{
+        font-size: 0.8rem;
+
+    }
+}
+
+@media screen and (max-width:700px){
+    main .container{
+        width: 50vw;
+    }
+}
+@media screen and (max-width:600px){
+    main .container{
+        width: 70vw;
+    }
+}
